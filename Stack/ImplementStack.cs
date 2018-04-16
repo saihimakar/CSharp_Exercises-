@@ -25,7 +25,7 @@ namespace Stack
         public void Push(int x)
         {
             data.Push(x);
-            mins.Push(Math.Min(x, mins.Peek()));  // pushes the smallest number the
+            mins.Push(Math.Min(x, mins.Peek()));  // pushes the smallest number into the stack
 
         }
         public void Pop()
