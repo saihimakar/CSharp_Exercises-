@@ -30,7 +30,7 @@ namespace Stack
         }
         public void Pop()
         {
-            if (data.Count() > 1)
+            if (data.Count() > 1)  
             {
 
                 data.Pop();
